@@ -1,0 +1,1 @@
+This is the project 2 I did for my Mathematical Modeling class with Timothy Regan. We call this Projective Cancer Mortality Model for China. The programming language that is used for this project is Python.
