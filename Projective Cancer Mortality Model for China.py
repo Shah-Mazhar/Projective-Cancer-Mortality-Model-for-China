@@ -11,11 +11,11 @@ from modsim import *
 import pandas as pd
 
 ## Data Collection
-"We collected two sets of data. One is for the deaths for cancer
+"""We collected two sets of data. One is for the deaths for cancer
 and another is the life expectancy. We got our datas from two website
 which is an html format, we turned it into a csv files to have accurate computation.
 We got our 'deaths by cancer' dataset from "https://ourworldindata.org/cancer" and the
-'life expectancy' dataset from "https://en.wikipedia.org/wiki/Demographics_of_China"." 
+'life expectancy' dataset from "https://en.wikipedia.org/wiki/Demographics_of_China".""" 
 #reading the csv file 'Deaths by Cancer'
 data_cancer = pd.read_csv('cancerdeathrates.csv')
 #giving the columns name for data_cancer to easy to work with
@@ -73,10 +73,10 @@ def plot_sweep_parameters(life_expectancy,deaths_cancer):
     plot(life_expectancy, deaths_cancer)
     
 ## Building Projection Model
-"We are trying to make a projection for our deaths_cancer datasets.
+"""We are trying to make a projection for our deaths_cancer datasets.
 In our datasets, we have the data from year 1990-2014.
 We are going to create TimeSeries model that will predict the deaths by cancer from 1990-2050.
-Based on our data, we assumed it is a constant growth. So, we are using the constant growth model to build our projection."
+Based on our data, we assumed it is a constant growth. So, we are using the constant growth model to build our projection."""
 #extracting data  from a certan cell of the csv file and putting it for a variable, in this case the time 
 cancer_t_0 = get_first_label(deaths_cancer)
 cancer_t_end = get_last_label(deaths_cancer)
