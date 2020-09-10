@@ -5,5 +5,3 @@ Python:
 •	Created a TimeSeries() function that takes deaths by cancer in China at 1990 and made a projection of deaths by cancer in China until 2050. 
 
 •	Generated two graphs, one with the projection model and another that shows the relationship between deaths by cancer vs life expectancy of China. 
-
-•	Presented to 20 people with a quad chart that consists of the objective, methodology, results and conclusion of the project. 
